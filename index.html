@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">Tech Solutions Agency</div>
+        <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#how-we-work">How We Work</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Get In Touch</h1>
+        <p>We'd love to hear from you. Send us a message today.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="content">
+    <div class="section-container">
+        
+        <div class="contact-wrapper">
+            
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>123 Tech Street, Silicon Valley, CA 94025</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@techsolutions.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Business Hours</h4>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p>Saturday - Sunday: Closed</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <h2>Send us a Message</h2>
+
+                <form id="contactForm" class="contact-form">
+
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="">Select a Service</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="ui-ux">UI/UX Design</option>
+                            <option value="mobile-app">Mobile App</option>
+                            <option value="cloud-solutions">Cloud Solutions</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="cta-btn">Send Message</button>
+
+                </form>
+
+                <p id="result"></p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+    <div class="section-container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3 class="faq-question">
+                    <span>What is your response time for inquiries?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </h3>
+                <p class="faq-answer">We typically respond to all inquiries within 24 hours during business days.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">
+                    <span>Do you offer custom solutions?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </h3>
+                <p class="faq-answer">Yes, all our solutions are customized to meet your specific business needs.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">
+                    <span>What is your pricing model?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </h3>
+                <p class="faq-answer">Pricing varies based on project scope and requirements. Contact us for a personalized quote.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">
+                    <span>Do you provide ongoing support?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </h3>
+                <p class="faq-answer">Yes, we offer comprehensive maintenance and support packages for all projects.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Tech Solutions Agency</h4>
+            <p>Delivering innovative technology solutions for your business.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Tech Solutions Agency. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
